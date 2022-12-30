@@ -1,0 +1,28 @@
+{
+  "name": "self-dns",
+  "version": "1.0.0",
+  "description": "This is a repl hosting a node.js app I wrote to help me access a server that does not have a static IP address. I set up a chronjob on the server to have it phone home to this app and keep the app updated with its most recent public ip address using `curl`, and then I can access this app from wherever I want to query it for the last known public IP from my server so I can connect to it. In essence, I am bootstrapping something like DNS or a static IP for my server off of the unchanging url of this project on replit.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "charliemirabile",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@replit/database": "^2.0.2",
+    "@types/node": "^18.0.6",
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "node-fetch": "^3.2.6"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charliemirabile/self-dns.git"
+  },
+  "bugs": {
+    "url": "https://github.com/charliemirabile/self-dns/issues"
+  },
+  "homepage": "https://github.com/charliemirabile/self-dns#readme"
+}
