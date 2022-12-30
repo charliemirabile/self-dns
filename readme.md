@@ -1,6 +1,6 @@
 # self-dns
 
-This is a repl hosting a node.js app I wrote to help me access a server that does not have a static IP address. I set up a cronjob on the server to have it phone home to this app and keep the app updated with its most recent public ip address using `curl`, and then I can access this app from wherever I want to query it for the last known public IP from my server so I can connect to it. In essence, I am bootstrapping something like DNS or a static IP for my server off of the unchanging url of this project on replit.
+This is a [repl](https://replit.com/@charliemirabile/self-dns#readme.md) hosting a node.js app I wrote to help me access a server that does not have a static IP address. I set up a cronjob on the server to have it phone home to this app and keep the app updated with its most recent public ip address using `curl`, and then I can access this app from wherever I want to query it for the last known public IP from my server so I can connect to it. In essence, I am bootstrapping something like DNS or a static IP for my server off of the unchanging url of this project on replit.
 
 ## security
 
